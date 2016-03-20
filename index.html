@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1>Tim's Tribute Page to <span style="color:purple">Grizzly Bear</span></h1>
-	<div style="font-size: 20px; padding: 10px;">
+	<article class="bio">
     	<p>Hey all, one of my favorite bands of recent years is <b>Grizzly Bear</b>!  An indie-rock band formed in Brooklyn, New York in 2002, their sound has often been described as <em>chamber pop</em> or <em>neo-psychedelic pop</em>.  A few of my personal favorite songs include "Ready, Able", "Sleeping Ute" and "Half-Gate."</p>  
 
 	    <p>The current band members consist of:
@@ -16,49 +16,53 @@
     		<li>Chris Taylor (bass, backing vocals)</li>
     		<li>Chris Bear (drums, backing vocals)</li>
     	</ul></p>	
-    </div>	
+    </article>	
 	
-	<div style="color:purple; padding: 20px;">
-	<h2>Discography</h2>
-	<table border=6>
-		<tr>
-			<th>Name</th>
-			<th>Release Date</th>
-			<th>Record Label</th>
-		</tr>
-		<tr>
-			<td><em>Horn of Plenty</em></td>
-			<td>November 9, 2004</td>
-			<td>Kanine</td>
-		</tr>
-		<tr>
-			<td><em>Yellow House</em></td>
-			<td>September 5, 2006</td>
-			<td>Warp</td>
-		</tr>	
-		<tr>
-			<td><em>Veckatimest</em></td>
-			<td>May 26, 2009</td>
-			<td>Warp</td>
-		</tr>	
-		<tr>
-			<td><em>Shields</em></td>
-			<td>September 18, 2012</td>
-			<td>Warp</td>
-		</tr>
-	</table>	
-		<button><a href="tracklists.html"><span style="color:blue">Click here for album tracklists!</span></a></button>		
-	</div>
-
-	<div>
+	<section>
+		<div id="disc">
+			<h2>Discography</h2>
+			<table border=6>
+				<tr>
+					<th>Name</th>
+					<th>Release Date</th>
+					<th>Record Label</th>
+				</tr>
+				<tr>
+					<td><em>Horn of Plenty</em></td>
+					<td>November 9, 2004</td>
+					<td>Kanine</td>
+				</tr>
+				<tr>
+					<td><em>Yellow House</em></td>
+					<td>September 5, 2006</td>
+					<td>Warp</td>
+				</tr>	
+				<tr>
+					<td><em>Veckatimest</em></td>
+					<td>May 26, 2009</td>
+					<td>Warp</td>
+				</tr>	
+				<tr>
+					<td><em>Shields</em></td>
+					<td>September 18, 2012</td>
+					<td>Warp</td>
+				</tr>
+			</table>		
+		</div>
+		<div id="tracklist">	
+			<button type="button" onclick="location.href='tracklists.html'">Click me for tracklists!</button>	
+		</div>	
+	</section>
+	
+	<nav>
 	    <img src="http://blogs.kcrw.com/musicnews/wp-content/uploads/2012/10/grizzlybear8.jpg">
 	    <p><a href="http://blogs.kcrw.com/musicnews/2012/10/grizzly-bear-live-on-kcrw-yet-again-and-sleeping-ute/#.VuMxiCgrJaQ">photo by Michael Katzif/WNYC</a></p>
-    </div>
+    </nav>
 
-    <div style="font-size: 20px">
+    <article style="font-size: 20px">
     	<h3>Thoughts</h3>
         <p>Looking at <a href="http://grizzlybeargalore.tumblr.com/">grizzlybeargalore.tumblr.com</a> the overall basic structure is pretty understandable to me.  There are a bunch of block elements that I'm unfamiliar with though.  I'm not sure what "iframe" does, although it seems to define the the little "Never miss a post!  Follow" window you see in every tumblr page.  "Script" is heavily used and seems to be a block element for embedding Javascript into the page.  At least every instance seems to be followed by a Javascript function, which I'm a bit familiar with from Codecademy.  I imagine it's primary way you get Javascript to interact w/ HTML.  Other than those two it's mostly div's! They're all obviously used to create the big blocky subdivisions on the page that are common to modern web style that looks good on tablets, phones, etc.</p>
-    </div>    
+    </article>    
    
 </body>
 </html>
