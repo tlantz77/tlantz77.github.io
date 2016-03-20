@@ -1,6 +1,8 @@
 body {
 	background: #ccd9ff;
-	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 40%;
 }
 
 .bio {
@@ -34,6 +36,11 @@ button {
 button:hover {
 	border: 5px solid yellow;
 }
+
+footer button {
+	margin: 20px auto auto 250px;
+}	 
+
 
 td {
 	padding: 5px;
